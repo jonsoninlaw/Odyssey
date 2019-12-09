@@ -1,0 +1,108 @@
+body
+{
+	font-family: "Helvetica";
+}
+
+ul
+{
+	background-color: dimgray;
+	margin: 0px;
+	padding-left: 10px;
+	font-size: 0;
+}
+
+li
+{
+	display: inline-block;
+	vertical-align: middle;
+	color: lightgrey;
+	font-size: 14px;
+}
+
+.home_link
+{
+	font-size: 22px;
+	padding-left: 10px;
+	padding-right: 20px;
+}
+
+.nav_link
+{
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.nav_link:hover
+{
+	background-color: lightgray;
+	color: grey;
+}
+
+.carousel
+{
+	background-color: whitesmoke;
+	height: 200px;
+}
+
+h2
+{
+	color: dimgray;	
+	font-size: 26px;
+	text-align: center;
+	font-weight: normal;
+}
+
+h2 em
+{
+	font-size: 20px;
+	color: gray;
+	font-style: normal;
+}
+
+#fellows
+{
+	height: 300px;
+	width: 100%;
+	text-align: center;
+	font-size: 0;
+}
+
+article
+{
+	display: inline-block;
+	background-color: whitesmoke;
+	height: 100%;
+	width: 32%;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+}
+
+.contact
+{
+	text-align: left;
+	border-top: solid gray 2px;
+	padding-top: 10px;
+}
+
+input, select
+{
+	width: 50%;
+	font-size: 18px;
+	margin: 15px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 400px;
+}
+
+textarea
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	min-width: 400px;
+	height: 60px;
+}

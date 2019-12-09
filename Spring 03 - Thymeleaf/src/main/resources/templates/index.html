@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Doctor Sign In</title>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header th:replace="header :: top"></header>
+<form method="get" th:action="@{/doctor}">
+    <fieldset>
+        <label for="name">Your doctor's name: </label>
+        <input id="name" name="name" type="text" placeholder="John Doe">
+        <hr>
+        <label for="number">Your doctor's number: </label>
+        <input id="number" name="number" type="number" placeholder="13">
+        <hr>
+        <input type="submit" value="Sign In">
+    </fieldset>
+</form>
+<footer th:replace="footer :: bottom"></footer>
+</body>
+</html>
