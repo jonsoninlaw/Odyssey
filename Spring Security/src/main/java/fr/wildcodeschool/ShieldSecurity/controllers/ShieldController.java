@@ -13,7 +13,7 @@ public class ShieldController {
 
     @GetMapping("/avengers/assemble")
     public String assemble() {
-        return "Welcome to the SHIELD.";
+        return "Avengers... Assemble";
     }
 
     @GetMapping("/secret-bases")
