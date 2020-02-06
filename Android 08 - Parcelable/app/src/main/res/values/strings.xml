@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">Parcelable</string>
-    <string name="brand_field_hint">Brand</string>
-    <string name="kilometers_field_hint">Kilometers</string>
-    <string name="go_button">GO</string>
-</resources>

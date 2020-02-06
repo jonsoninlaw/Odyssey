@@ -1,16 +1,24 @@
 package com.wildcodeschool.wildandwizard.repository;
 
 import com.wildcodeschool.wildandwizard.entity.Wizard;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
 
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
+@Component
 public class WizardRepository {
 
-    private final static String DB_URL = "jdbc:mysql://localhost:3306/spring_jdbc_quest?serverTimezone=GMT";
-    private final static String DB_USER = "h4rryp0tt3r";
-    private final static String DB_PASSWORD = "Horcrux4life!";
+    @Value( "${spring.datasource.url}" )
+    private String DB_URL;
+
+    @Value( "${spring.datasource.username}" )
+    private String DB_USER;
+
+    @Value( "${spring.datasource.password}" )
+    private String DB_PASSWORD;
 
     public List<Wizard> findAll() {
 
